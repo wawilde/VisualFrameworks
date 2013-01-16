@@ -19,10 +19,15 @@
 			background-size: cover;
 		}
 		
+	a 
+		{
+			text-justify:center;
+		}	
+		
 	div
 		{
-			box-shadow: 10px 10px 5px #888888;
-			border:2px solid;
+			box-shadow: inset 5px 5px 5px 5px #2a72d7;
+			border:2px 2px inset #300ae9;
 			border-radius:25px;
 		}
 	h1
@@ -47,29 +52,30 @@
 		
 	form
 		{
-			border: groove;
+			border: 2px inset blue;
 			text-align: center;
 			font-family: fantasy;
 		}
 		
-	textarea
+	legend
 		{
-			width: "380 px";
-			height: "420 px";
-			text-align: center;
-			text-overflow: inherit;
-			
+			border: 1px inset #2b0df2;
+			border-radius: 15px
 		}
-	href
+		
+	quote
 		{
-			width:inherit;
-			appearance: button;
+			word-wrap: normal;
+			width: auto;	
+			height: auto;
 			text-align: center;
+			
+			
 		}
 	
 	ul
 		{
-			list-style-type:disc;
+			list-style-type: circle;
 			margin:5px;
 			padding:5px;
 		} 
