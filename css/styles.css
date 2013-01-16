@@ -1,0 +1,82 @@
+ 
+	header
+	
+		{
+			text-align: center;
+		}
+		
+	nav
+	 	{
+		 	text-align: center;
+		 	text-shadow: 5px 5px 5px #2a72d7;
+	 	}
+		
+	body 
+		{
+			background-image:url("../img/background.png");
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size: cover;
+		}
+		
+	div
+		{
+			box-shadow: 10px 10px 5px #888888;
+			border:2px solid;
+			border-radius:25px;
+		}
+	h1
+		{
+			text-shadow: 5px 5px 5px #2a72d7;
+			text-align: center;
+			font-family: fantasy;
+			font-style: normal;
+			font-size: large;
+			font-weight: 700;
+		}
+	
+	h2
+		{
+			text-shadow: 5px 5px 5px #2a72d7;
+			text-align: center;
+			font-family: fantasy;
+			font-size: medium;
+			font-style: italic;
+			font-weight: bold;
+		}
+		
+	form
+		{
+			border: groove;
+			text-align: center;
+			font-family: fantasy;
+		}
+		
+	textarea
+		{
+			width: "380 px";
+			height: "420 px";
+			text-align: center;
+			text-overflow: inherit;
+			
+		}
+	href
+		{
+			width:inherit;
+			appearance: button;
+			text-align: center;
+		}
+	
+	ul
+		{
+			list-style-type:disc;
+			margin:5px;
+			padding:5px;
+		} 
+		
+	footer
+		{
+			text-align: center;
+			font-size: x-small;
+		}
+	

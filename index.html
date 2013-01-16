@@ -18,6 +18,7 @@
 	</head>
 	
 	<body>
+		
 			<header>
 				<hgroup>
 				<h1> Collect A Quote</h1>
@@ -28,12 +29,12 @@
 			<nav>
 				<ul>
 					<a href="index.html" title="Home page">Home</a>
-					<a href="additem.html" title="Saved Quotes">Quotes</a>
+					<a href="quotes.html" title="Saved Quotes">Quotes</a>
 					<a href="#" title="Clear/Delete all quotes">Delete Quotes</a>
 				</ul>
 			</nav>
 			
-		<form action="" method="post">
+		<form action="#" method="post">
 			<fieldset>
 				<legend>What type of quote is it?</legend>
 			
@@ -45,29 +46,14 @@
 						</optgroup>
 					</select>
 			
-			<legend>Please enter the quote below.</legend>
-			<ul>					
-				<li><label for="Quote">Quote</label><input type="text" id="quote" width="device-width"  /></li>
-				<li><input type="checkbox" name="color" value="Blue" /><label for="Blue">Blue</label></li>
-				<li><input type="checkbox" name="color" value="Red" /><lable for="Red">Red</lable></li>
-				<li><label for="email">Email</label><input type="email" id="email" placeholder="example@email.com"/></li>
-				<li><input type=button value="Submit!" /></li>
-			</ul>
-		</fieldset>
-		
-			<div class="gray">
+			<p>Please enter the quote below.</p>
 			
-				<article>
-					<header><h2>Content HEader</h2></header>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</article>
-				<article>
-				<h3>More Content</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-				</article>
-				
-
+				<textarea name="quote" placeholder="Type quote in here."></textarea>					
+			<p>Tap here to save this quote.</p>
+				<input type=button id="submit" value="Save it!" width="width=device-width" />
+		</fieldset>
+			
 </body>
-
+<footer> All contents on this website © COPYRIGHT 2013 by Woody Wilde</footer>
 
 </html>
