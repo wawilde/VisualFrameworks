@@ -22,6 +22,7 @@
 	a 
 		{
 			text-justify:center;
+			font-family: fantasy;
 		}	
 		
 	div
@@ -84,5 +85,6 @@
 		{
 			text-align: center;
 			font-size: x-small;
+			font-family: fantasy;
 		}
 	
